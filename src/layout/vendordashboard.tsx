@@ -5,8 +5,17 @@ import SideBar from "../views/sidebar";
 import NavBar from "../views/navbar";
 
 const Container = styled.div`
-  /* background: #e8b89b; */
+  background: #c5b0971a;
+  width: 100vw;
+  min-height: 100vh;
 `;
+
+const Content = styled.div`
+  padding: 25px 40px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+`
 
 export default function vendordashboard({
   children,
@@ -16,8 +25,10 @@ export default function vendordashboard({
   return (
     <Container>
       <SideBar />
-      <NavBar />
-      {children}
+        <Content>
+            <NavBar />
+            {children}
+        </Content>
     </Container>
   );
 }
