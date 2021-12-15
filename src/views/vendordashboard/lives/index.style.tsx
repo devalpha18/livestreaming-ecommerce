@@ -11,7 +11,7 @@ export const LivesContainer = styled.div`
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 
   margin-top: 50px;
   @media (max-width: 992px) {
@@ -21,7 +21,7 @@ export const ButtonContainer = styled.div`
 
   .ButtonLink {
     text-decoration: none;
-    width: 48%;
+    width: 30%;
 
     @media (max-width: 992px) {
       width: 100%;
@@ -50,7 +50,7 @@ export const LivesTable = styled.div`
 
   .HeaderPart > div {
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 
     background-color: #eeeeee;
     color: #555555;

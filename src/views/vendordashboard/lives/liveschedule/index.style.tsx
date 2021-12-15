@@ -1,5 +1,14 @@
 import styled from "styled-components";
 
+export const LiveScheduleContainer = styled.div`
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+`
+
 export const FormPart = styled.div`
   margin-top: 50px;
   margin-bottom: 50px;
@@ -32,7 +41,7 @@ export const FormLabel = styled.div`
 export const FormTextField = styled.div`
   margin-bottom: 20px;
 
-  background: #ffffff;
+  background: #eeeeee;
   border: none;
   height: 40px;
 
@@ -97,7 +106,7 @@ export const ScheduleTable = styled.div`
 
   .HeaderPart > div {
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 
     background-color: #eeeeee;
     color: #555555;

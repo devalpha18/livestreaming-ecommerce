@@ -9,12 +9,12 @@ import {
   FormImageUpload,
   ImageContainer,
   SubmitButton,
+  AddProductContainer
 } from "./index.style";
 
 export default function index() {
   return (
-    <Wrapper>
-      <Container>
+      <AddProductContainer>
         <Title>Adicionar Produto</Title>
         <AddProductFormContainer>
           <SubPart>
@@ -73,7 +73,6 @@ export default function index() {
           </SubPart>
           <SubmitButton>PUBLICAR</SubmitButton>
         </AddProductFormContainer>
-      </Container>
-    </Wrapper>
+      </AddProductContainer>
   );
 }

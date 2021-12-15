@@ -19,7 +19,7 @@ export default function index() {
                     <MenuItem><BiHomeAlt/></MenuItem>
                 </Link>
                 <ReactTooltip id='dashboard-tip' effect='solid'>
-                    <span>Dashboard</span>
+                    <span>Painel de Gerenciamento</span>
                 </ReactTooltip>
                 <DividerByDot>...</DividerByDot>
                 <Link to="/configurepayment" data-tip
@@ -42,7 +42,12 @@ export default function index() {
                 <ReactTooltip id='lives' effect='solid'>
                     <span>Gerenciar Lives</span>
                 </ReactTooltip>
-                <MenuItem><FiUser/></MenuItem>
+                <Link to="/user" data-tip data-for="user">
+                    <MenuItem><FiUser/></MenuItem>
+                </Link>
+                <ReactTooltip id='user' effect='solid'>
+                    <span>Editar Conta</span>
+                </ReactTooltip>
             </SideBarContent>
         </SideBarWrapper>
     );

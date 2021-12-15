@@ -15,7 +15,7 @@ export const ProductCatalogWrapper = styled.div`
 
   .HeaderPart > div {
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
 
     background-color: #eeeeee;
     color: #555555;
@@ -58,9 +58,9 @@ export const CRUDButton = styled.div<ButtonProps>`
   width: ${(props) => props.width};
   border-radius: 50px;
   text-align: center;
-  height: 80px;
-  line-height: 80px;
-  font-size: 25px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
   font-weight: 600;
 
   cursor: pointer;
@@ -76,7 +76,7 @@ export const ProductCatalogTextField = styled.input`
   margin-top: 30px;
 
   border: none;
-  height: 80px;
+  height: 40px;
   width: 100%;
   justify-content: space-between;
   border-radius: 10px;
@@ -85,7 +85,7 @@ export const ProductCatalogTextField = styled.input`
 
   background-color: #eeeeee;
 
-  font-size: 36px;
+  font-size: 20px;
 `;
 
 export const ProductCatalogTable = styled.div`

@@ -19,6 +19,7 @@ import {
   TableContainer,
   TableLabel,
   ScheduleTable,
+  LiveScheduleContainer
 } from "./index.style";
 
 export default function LiveSchedule() {
@@ -29,8 +30,7 @@ export default function LiveSchedule() {
   }, []);
 
   return (
-    <Wrapper>
-      <Container>
+      <LiveScheduleContainer>
         <Title>Agendar Live</Title>
         <FormPart>
           <SubPart className="fullField">
@@ -78,7 +78,6 @@ export default function LiveSchedule() {
             </div>
           </ScheduleTable>
         </TableContainer>
-      </Container>
-    </Wrapper>
+      </LiveScheduleContainer>
   );
 }

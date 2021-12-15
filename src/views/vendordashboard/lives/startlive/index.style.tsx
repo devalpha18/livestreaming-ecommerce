@@ -1,5 +1,15 @@
 import styled from "styled-components";
 
+export const StartliveContainer = styled.div`
+  background: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  width: calc(100% - 60px);
+`
+
 export const CameraPart = styled.div`
   margin: 30px 0;
 `;

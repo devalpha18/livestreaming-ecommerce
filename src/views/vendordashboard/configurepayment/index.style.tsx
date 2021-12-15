@@ -4,9 +4,8 @@ export const ConfigurePaymentContent = styled.div`
   margin-top: 30px;
 
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 
-  font-size: 1.5rem;
+  font-size: 18px;
   font-weight: 300;
   color: #555555;
 `;
@@ -29,11 +28,11 @@ export const SaveButton = styled.div`
   text-align: center;
   margin: auto;
 
-  height: 70px;
+  height: 50px;
 
   font-size: 20px;
 
-  line-height: 70px;
+  line-height: 50px;
   font-weight: 600;
 
   cursor: pointer;
@@ -104,7 +103,7 @@ export const RadioButton = styled.input`
 `;
 
 export const PaymentDescription = styled.div`
-  font-size: 2rem;
+  font-size: 18px;
   font-weight: 300;
   color: #555555;
 `;
@@ -114,7 +113,7 @@ export const KeyField = styled.input`
 
   background: #eeeeee;
   border: none;
-  height: 40px;
+  height: 30px;
   width: 95%;
   justify-content: space-between;
   border-radius: 10px;
@@ -123,8 +122,8 @@ export const KeyField = styled.input`
 
 export const RadioButtonContainer = styled.div`
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
 
   display: flex;
@@ -135,5 +134,5 @@ export const RadioButtonContainer = styled.div`
 export const APIPart = styled.div``;
 
 export const DescriptionLabel = styled.div`
-  font-size: 40px;
+  font-size: 20px;
 `;

@@ -36,7 +36,7 @@ export const Container = styled.div`
 
 export const Title = styled.div`
   color: #e8b89b;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 
   @media (max-width: 992px) {
@@ -53,12 +53,11 @@ export const CustomButton = styled.div`
   text-align: center;
   margin: auto;
 
-  height: 70px;
+  height: 50px;
 
   font-size: 20px;
 
-  line-height: 70px;
-  font-size: 28px;
+  line-height: 50px;
   font-weight: 600;
 
   cursor: pointer;

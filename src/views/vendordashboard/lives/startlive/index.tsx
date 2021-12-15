@@ -20,6 +20,7 @@ import {
   LiveButtonContainer,
   LiveButtonPart,
   MutiButtonContainer,
+  StartliveContainer
 } from "./index.style";
 
 import { GoMute, GoUnmute } from "react-icons/go";
@@ -30,8 +31,7 @@ export default function StartLive() {
     setMute(!mute);
   };
   return (
-    <Wrapper>
-      <Container>
+      <StartliveContainer>
         <Title>Título da Live</Title>
         <CameraPart>
           <Camera></Camera>
@@ -69,7 +69,6 @@ export default function StartLive() {
             </LiveButtonContainer>
           </LiveButtonPart>
         </SoftwarePart>
-      </Container>
-    </Wrapper>
+      </StartliveContainer>
   );
 }
