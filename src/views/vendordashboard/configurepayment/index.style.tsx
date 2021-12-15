@@ -13,6 +13,13 @@ export const ConfigurePaymentContent = styled.div`
 
 export const ButtonContainer = styled.div``;
 
+export const ConfigContainer = styled.div`
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  border-radius: 10px;
+  background: white;
+  padding: 25px 30px;
+`;
+
 export const SaveButton = styled.div`
   text-transform: uppercase;
   color: #ffffff;
@@ -27,7 +34,6 @@ export const SaveButton = styled.div`
   font-size: 20px;
 
   line-height: 70px;
-  font-size: 28px;
   font-weight: 600;
 
   cursor: pointer;
@@ -109,14 +115,10 @@ export const KeyField = styled.input`
   background: #eeeeee;
   border: none;
   height: 40px;
-  width: 100%;
+  width: 95%;
   justify-content: space-between;
   border-radius: 10px;
-
   padding-left: 15px;
-
-  border: none;
-  width: 100%;
 `;
 
 export const RadioButtonContainer = styled.div`

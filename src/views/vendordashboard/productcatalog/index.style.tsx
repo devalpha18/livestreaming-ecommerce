@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const ProductCatalogWrapper = styled.div`
-  background-color: #c5b0971a;
-
-  margin-top: 130px;
-
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  padding: 25px 35px;
+  width: 100%;
+  
   .HeaderPart {
     display: flex;
     flex-direction: row;
@@ -45,14 +47,11 @@ export const CRUDButton = styled.div<ButtonProps>`
   color: #ffffff;
   background-color: ${(props) => props.color};
   width: ${(props) => props.width};
-  border-radius: 30px;
+  border-radius: 50px;
   text-align: center;
-  height: 100px;
-
-  font-size: 20px;
-
-  line-height: 100px;
-  font-size: 28px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 25px;
   font-weight: 600;
 
   cursor: pointer;

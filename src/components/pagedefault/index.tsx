@@ -10,10 +10,6 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
-  padding-top: 70px;
-  padding-bottom: 100px;
 
   max-width: 90%;
 

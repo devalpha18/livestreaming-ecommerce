@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
 export const LivesContainer = styled.div`
-  background-color: #ffffff;
-  padding: 1rem 2rem;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  padding: 25px 35px;
 `;
 
 export const ButtonContainer = styled.div`
   display: flex;
   flex-direction: row;
-
   justify-content: space-between;
 
   margin-top: 50px;

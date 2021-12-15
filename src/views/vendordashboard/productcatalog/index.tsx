@@ -27,11 +27,11 @@ export default function ProductCatalog() {
             to="/addproduct"
             style={{ textDecoration: "none", width: "30%" }}
           >
-            <CRUDButton color="#ff0000" width="100%">
+            <CRUDButton color="#009933" width="100%">
               ADICIONAR ITEM
             </CRUDButton>
           </Link>
-          <CRUDButton color="#00FF00" width="30%">
+          <CRUDButton color="#ff0000" width="30%">
             EXCLUIR TUDO
           </CRUDButton>
         </CRUDButtonContainer>

@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const VendorDashboardWrapper = styled.div`
-  background-color: #c5b0971a;
-
-  margin-top: 130px;
-
+ display: flex;
+ width:100%;
   .HeaderPart {
     display: flex;
     flex-direction: row;
@@ -23,77 +21,25 @@ export const VendorDashboardWrapper = styled.div`
 
     border-radius: 10px;
   }
-`;
-
-export const VendorEachPage = styled.div`
-  width: 25%;
-  background-color: #ffffff;
-
-  padding: 2rem 4%;
-
-  @media (max-width: 992px) {
-    width: 70%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    padding: 2rem 15%;
-
-    display: flex;
-    flex-direction: row;
-  }
-
-  @media (max-width: 526px) {
-    width: 90%;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-
-    padding: 2rem 5%;
-
-    display: flex;
-    flex-direction: row;
-  }
-
-  .IconPart {
-    @media (max-width: 992px) {
-      width: 50%;
-    }
-    @media (max-width: 768px) {
-      width: 126px;
-      margin-right: 30px;
-    }
-  }
-`;
-
-export const VendorPageIcon = styled.img`
-  width: 50%;
-
-  @media (max-width: 768px) {
-    width: 126px;
-  }
-`;
-
-export const VendorEachPageContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-
-  margin-bottom: 50px;
-
-  @media (max-width: 992px) {
-    display: flex;
+  
+  @media screen and (max-width: 1000px){
     flex-direction: column;
   }
 `;
 
 export const VendorTableContainer = styled.div`
+  display: flex;
+  flex-direction: column;
   background-color: #ffffff;
   padding: 1rem 2rem;
-  margin-bottom: 50px;
-
-  @media (max-width: 992px) {
-    background-color: transparent;
-    padding: 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  margin-right: 30px;
+  width:65%;
+  
+  @media (max-width: 1000px) {
+    width: calc(100% - 60px);
+    margin-bottom: 30px;
   }
 `;
 
@@ -108,7 +54,7 @@ export const PedidoTitle = styled.div`
 export const PedidoInfoTable = styled.div`
   margin-bottom: 30px;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1000px) {
     background-color: #ffffff;
     padding: 1rem 1rem;
   }
@@ -117,10 +63,12 @@ export const PedidoInfoTable = styled.div`
 export const VendorLiveButtonContainer = styled.div`
   background-color: #ffffff;
   padding: 1rem 1rem;
-
-  @media (max-width: 992px) {
-    background-color: transparent;
-    padding: 0;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  width: 35%;
+  
+  @media (max-width: 1000px) {
+    width: calc(100% - 30px);
   }
 `;
 
@@ -128,40 +76,32 @@ export const VendorButton = styled.div`
   text-transform: uppercase;
   color: #ffffff;
   background-color: #e8b89b;
-  width: 45%;
+  width: 250px;
   border-radius: 30px;
   text-align: center;
   margin: auto;
+  height: 50px;
 
-  height: 70px;
-
+  line-height: 50px;
   font-size: 20px;
-
-  line-height: 70px;
-  font-size: 28px;
   font-weight: 600;
 
   cursor: pointer;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1000px) {
     width: 90%;
-
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
   }
 `;
 
 export const LiveButtonContainer = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  grid-gap: 20px;
 
-  @media (max-width: 992px) {
+  @media (max-width: 1000px) {
     display: flex;
-    flex-direction: column;
-
-    background-color: #ffffff;
-    padding: 1rem 1rem;
+    flex-direction: row;
   }
 `;
 

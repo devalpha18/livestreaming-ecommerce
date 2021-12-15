@@ -17,6 +17,13 @@ const Content = styled.div`
   margin-left: 100px;
 `
 
+const ContentWrapper = styled.div`
+  padding: 35px 0;
+  display: flex;
+  width: 100%;
+  margin-top: 70px;
+`
+
 export default function vendordashboard({
   children,
 }: {
@@ -27,7 +34,7 @@ export default function vendordashboard({
       <SideBar />
         <Content>
             <NavBar />
-            {children}
+            <ContentWrapper>{children}</ContentWrapper>
         </Content>
     </Container>
   );

@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 // components
 import LoadingScreen from "../components/loadingscreen";
+import VendorDashboard from "../layout/vendordashboard";
 
 import NotFound from "../views/page404";
 
@@ -88,32 +89,38 @@ const routes: RouteItem[] = [
   {
     exact: true,
     path: "/vendor-dashboard",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard")),
   },
   {
     exact: true,
     path: "/configurepayment",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/configurepayment")),
   },
 
   {
     exact: true,
     path: "/editaccount",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/editaccount")),
   },
   {
     exact: true,
     path: "/purchasedetail",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/purchasedetail")),
   },
   {
     exact: true,
     path: "/productcatalog",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/productcatalog")),
   },
   {
     exact: true,
     path: "/addproduct",
+    layout: VendorDashboard,
     component: lazy(
       () => import("../views/vendordashboard/productcatalog/addproduct")
     ),
@@ -121,11 +128,13 @@ const routes: RouteItem[] = [
   {
     exact: true,
     path: "/lives",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/lives")),
   },
   {
     exact: true,
     path: "/liveschedule",
+    layout: VendorDashboard,
     component: lazy(
       () => import("../views/vendordashboard/lives/liveschedule")
     ),
@@ -133,6 +142,7 @@ const routes: RouteItem[] = [
   {
     exact: true,
     path: "/startlive",
+    layout: VendorDashboard,
     component: lazy(() => import("../views/vendordashboard/lives/startlive")),
   },
 ];

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { Wrapper, Container, Title } from "../../../components/pagedefault";
+import {Title } from "../../../components/pagedefault";
 
 import {
   ConfigurePaymentContent,
@@ -15,6 +15,7 @@ import {
   RadioButtonContainer,
   APIPart,
   DescriptionLabel,
+  ConfigContainer
 } from "./index.style";
 
 export default function ConfigurePayment() {
@@ -30,8 +31,7 @@ export default function ConfigurePayment() {
     console.log("aaa");
   };
   return (
-    <Wrapper>
-      <Container>
+      <ConfigContainer>
         <Title>Gateway de Pagamento</Title>
         <ConfigurePaymentContent>
           Selecione uma das opções abaixo, crie sua conta no gateway e insira
@@ -99,7 +99,6 @@ export default function ConfigurePayment() {
             SALVAR CONFIGURAÇÃO
           </SaveButton>
         </ButtonContainer>
-      </Container>
-    </Wrapper>
+      </ConfigContainer>
   );
 }

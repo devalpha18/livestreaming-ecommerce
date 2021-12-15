@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const NotFoundPageWrapper = styled.div`
   background-color: #c5b0971a;
+  min-height: 100vh;
 `;
 
 export const NotFountPageContainer = styled.div`
