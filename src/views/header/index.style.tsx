@@ -116,7 +116,8 @@ export const MobileNavMenu = styled.div`
   display: none;
 
   @media (max-width: 992px) {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
 `;
 

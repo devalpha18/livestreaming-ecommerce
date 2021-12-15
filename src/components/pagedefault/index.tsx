@@ -37,7 +37,7 @@ export const Container = styled.div`
 
 export const Title = styled.div`
   color: #e8b89b;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 600;
 
   @media (max-width: 992px) {
@@ -68,5 +68,13 @@ export const CustomButton = styled.div`
 
   @media (max-width: 992px) {
     width: 90%;
+  }
+  
+  @media (max-width: 768px) {
+    font-size: 15px;
+  }
+  
+  @media (max-width: 500px) {
+    font-size: 12px;
   }
 `;

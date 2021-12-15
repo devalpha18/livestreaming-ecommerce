@@ -35,42 +35,45 @@ export default function Lives() {
                     <CustomButton>INICIAR LIVE</CustomButton>
                 </Link>
             </ButtonContainer>
+            <LivesTableLabel>Lives Agendadas</LivesTableLabel>
             <LivesTableContainer>
-                <LivesTableLabel>Lives Agendadas</LivesTableLabel>
                 <LivesTable>
-                    <div className="HeaderPart">
-                        <div>Horário</div>
-                        <div>Data</div>
-                        <div>EDIT | CANCEL</div>
-                    </div>
-                    <div className="ContentPart">
-                        {[...scheduleData].map((eachData, index) => (
-                            <div key={index} className="row">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        ))}
+                    <div className="HeaderSubpart">
+                        <div className="HeaderPart">
+                            <div>Horário</div>
+                            <div>Data</div>
+                            <div>EDIT | CANCEL</div>
+                        </div>
+                        <div className="ContentPart">
+                            {[...scheduleData].map((eachData, index) => (
+                                <div key={index} className="row">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </LivesTable>
             </LivesTableContainer>
-
+            <LivesTableLabel>Lives Gravadas</LivesTableLabel>
             <LivesTableContainer>
-                <LivesTableLabel>Lives Gravadas</LivesTableLabel>
                 <LivesTable>
-                    <div className="HeaderPart">
-                        <div>Horário</div>
-                        <div>Data</div>
-                        <div>EDIT | CANCEL</div>
-                    </div>
-                    <div className="ContentPart">
-                        {[...scheduleData].map((eachData, index) => (
-                            <div key={index} className="row">
-                                <div></div>
-                                <div></div>
-                                <div></div>
-                            </div>
-                        ))}
+                    <div className="HeaderSubpart">
+                        <div className="HeaderPart">
+                            <div>Horário</div>
+                            <div>Data</div>
+                            <div>EDIT | CANCEL</div>
+                        </div>
+                        <div className="ContentPart">
+                            {[...scheduleData].map((eachData, index) => (
+                                <div key={index} className="row">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </LivesTable>
             </LivesTableContainer>

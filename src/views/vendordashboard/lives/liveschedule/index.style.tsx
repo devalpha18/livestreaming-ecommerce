@@ -7,6 +7,9 @@ export const LiveScheduleContainer = styled.div`
   flex-direction: column;
   padding: 25px 35px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  @media (max-width: 992px) {
+    width: calc(100% - 60px);
+  }
 `
 
 export const FormPart = styled.div`
@@ -26,6 +29,8 @@ export const SubPart = styled.div`
 
     @media (max-width: 992px) {
       width: 100%;
+      
+      margin:0;
     }
   }
 `;
@@ -115,5 +120,18 @@ export const ScheduleTable = styled.div`
     padding: 3px 0 3px 1%;
 
     border-radius: 10px;
+  }
+  
+  .HeaderSubpart {
+    width: 100%;
+    overflow: auto;
+    contain: content;
+    min-width: 480px;
+  }
+  overflow: auto;
+  
+  @media (max-width: 992px) {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
   }
 `;

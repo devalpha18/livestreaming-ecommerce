@@ -22,6 +22,10 @@ const ContentWrapper = styled.div`
   display: flex;
   width: 100%;
   margin-top: 70px;
+  
+  @media (max-width:992px){
+  margin-top:0;
+  }
 `
 
 export default function vendordashboard({

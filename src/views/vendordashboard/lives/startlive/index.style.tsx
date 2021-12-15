@@ -12,6 +12,9 @@ export const StartliveContainer = styled.div`
 
 export const CameraPart = styled.div`
   margin: 30px 0;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
 `;
 
 export const Camera = styled.div`
@@ -25,6 +28,10 @@ export const CameraButtonPart = styled.div`
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
+  
 `;
 
 export const MuteSelectButton = styled.div`
@@ -32,11 +39,11 @@ export const MuteSelectButton = styled.div`
   color: #ffffff;
   background-color: #e8b89b;
   width: 100%;
-  border-radius: 70px;
+  border-radius: 50%;
   text-align: center;
   margin: auto;
 
-  height: 70px;
+  height: 50px;
 
   font-size: 20px;
 
@@ -60,6 +67,9 @@ export const MuteSelectButton = styled.div`
 
 export const SoftwarePart = styled.div`
   margin: 30px 0;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
 `;
 
 export const SoftwareButtonPart = styled.div`
@@ -67,6 +77,9 @@ export const SoftwareButtonPart = styled.div`
   flex-direction: row;
   justify-content: space-between;
   margin-top: 30px;
+  @media (max-width: 992px) {
+    margin-top: 0;
+  }
 `;
 
 export const ShowLabel = styled.div`
@@ -76,6 +89,11 @@ export const ShowLabel = styled.div`
 
   margin-top: 80px;
   margin-bottom: 60px;
+  
+  @media (max-width: 992px) {
+    margin-top: 40px;
+  margin-bottom: 30px;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -83,7 +101,7 @@ export const ButtonContainer = styled.div`
 `;
 
 export const MutiButtonContainer = styled.div`
-  width: 70px;
+  width: 50px;
 `;
 
 export const SoftwareButtonContainer = styled.div`

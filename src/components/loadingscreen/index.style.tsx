@@ -11,7 +11,8 @@ export const CustomLoadingWrapper = styled.div`
   justify-content: center;
   position: fixed;
   z-index: 99999;
-  background: rgba(0, 0, 0, 0.7);
+  //background: rgba(0, 0, 0, 0.7);
+  background:#c5b097;
   flex-direction: column;
 `;
 export const CustomLoadingContent = styled.div`
@@ -28,7 +29,7 @@ export const CustomLoadingContent = styled.div`
   line-height: 150px;
   font-family: sans-serif;
   font-size: 12px;
-  color: #e8b89b;
+  color: #ffffff;
   letter-spacing: 4px;
   text-transform: uppercase;
   text-shadow: 0 0 10px #e8b89b;

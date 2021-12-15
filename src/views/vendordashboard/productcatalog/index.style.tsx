@@ -7,6 +7,10 @@ export const ProductCatalogWrapper = styled.div`
   padding: 25px 35px;
   width: 100%;
   
+  @media (max-width: 992px) {
+    width: calc(100% - 60px);
+  }
+  
   .HeaderPart {
     display: flex;
     flex-direction: row;
@@ -104,4 +108,16 @@ export const ProductCatalogTextField = styled.input`
 
 export const ProductCatalogTable = styled.div`
   margin-top: 30px;
+  
+  @media (max-width: 992px) {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
+  }
+  
+  .HeaderSubpart {
+    overflow: auto;
+    contain: content;
+    min-width: 480px;
+  }
+  overflow: auto;
 `;

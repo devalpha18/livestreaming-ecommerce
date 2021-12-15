@@ -10,6 +10,28 @@ export const SideBarWrapper = styled.div`
   padding: 20px 15px;
   background: white;
   box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+  z-index: 1;
+`;
+
+
+export const OverLay = styled.div`
+  &.visible {
+    opacity: 1;
+    pointer-events: initial;
+    visibility: visible;
+  }
+  
+  z-index: 99999;
+
+  pointer-events: none;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+
+  top: 0;
+  left:0;
 `;
 
 export const SideBarHeader = styled.div`

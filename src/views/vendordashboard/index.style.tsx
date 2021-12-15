@@ -41,6 +41,7 @@ export const VendorTableContainer = styled.div`
     width: calc(100% - 60px);
     margin-bottom: 30px;
   }
+
 `;
 
 export const PedidoTitle = styled.div`
@@ -62,6 +63,14 @@ export const PedidoInfoTable = styled.div`
     background-color: #ffffff;
     padding: 1rem 1rem;
   }
+  
+  .HeaderSubpart {
+    width: 100%;
+    overflow: auto;
+    contain: content;
+    min-width: 480px;
+  }
+  overflow: auto;
 `;
 
 export const VendorLiveButtonContainer = styled.div`

@@ -6,6 +6,9 @@ export const LivesContainer = styled.div`
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
   padding: 25px 35px;
+  @media (max-width: 992px) {
+    width: calc(100% - 60px);
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -33,12 +36,23 @@ export const LivesTableLabel = styled.div`
   font-size: 20px;
   color: #555555;
   font-weight: 600;
-
-  margin-bottom: 10px;
+  margin-top: 30px;
 `;
 
 export const LivesTableContainer = styled.div`
-  margin-top: 70px;
+  margin-top: 20px;
+  
+  @media (max-width:992px){
+  margin-top:20px;
+  }
+  
+  .HeaderSubpart {
+    width: 100%;
+    overflow: auto;
+    contain: content;
+    min-width: 480px;
+  }
+  overflow: auto;
 `;
 
 export const LivesTable = styled.div`
@@ -59,5 +73,10 @@ export const LivesTable = styled.div`
     padding: 3px 0 3px 1%;
 
     border-radius: 10px;
+  }
+  
+  @media (max-width: 992px) {
+    background-color: #ffffff;
+    padding: 1rem 1rem;
   }
 `;
