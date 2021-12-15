@@ -13,7 +13,7 @@ export const NavbarWrapper = styled.div`
   position: fixed;
   width: calc(100vw - 250px);
   z-index: 1;
-  @media (max-width: 768px) {
+  @media (max-width: 992px) {
   justify-content: flex-end;
     a {
     display:none;

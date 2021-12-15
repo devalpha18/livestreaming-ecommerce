@@ -10,6 +10,7 @@ export const Wrapper = styled.div`
 export const Container = styled.div`
   margin-right: auto;
   margin-left: auto;
+  padding-bottom: 1px;
 
   max-width: 90%;
 
@@ -36,7 +37,7 @@ export const Container = styled.div`
 
 export const Title = styled.div`
   color: #e8b89b;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 600;
 
   @media (max-width: 992px) {
