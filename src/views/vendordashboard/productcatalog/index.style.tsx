@@ -69,6 +69,20 @@ export const CRUDButton = styled.div<ButtonProps>`
   @media (max-width: 992px) {
     width: 80%;
   }
+  
+  @media (max-width: 600px) {
+    font-size: 15px;
+  }
+  
+  @media (max-width: 526px) {
+    font-size: 15px;
+    width: 100%;
+  }
+  
+  @media (max-width: 424px) {
+    font-size: 12px;
+    width: 100%;
+  }
 `;
 
 export const ProductCatalogTextField = styled.input`

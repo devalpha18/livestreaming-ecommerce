@@ -13,7 +13,34 @@ export const NavbarWrapper = styled.div`
   position: fixed;
   width: calc(100vw - 250px);
   z-index: 1;
+  @media (max-width: 768px) {
+  justify-content: flex-end;
+    a {
+    display:none;
+    }
+  } 
 `
+
+export const OverLay = styled.div`
+  &.visible {
+    opacity: 1;
+    pointer-events: initial;
+    visibility: visible;
+  }
+  
+  z-index: 99999;
+
+  pointer-events: none;
+  opacity: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+
+  top: 0;
+  left:0;
+`;
+
 export const MenuLabel = styled.span`
   color: #ecc5ac;
   font-weight: 600;
