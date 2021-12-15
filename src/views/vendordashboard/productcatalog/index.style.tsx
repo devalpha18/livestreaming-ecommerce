@@ -39,6 +39,15 @@ export const CRUDButtonContainer = styled.div`
     align-items: center;
     justify-content: center;
   }
+  a{
+  text-decoration: none;
+  width: 30%;
+  @media (max-width:992px){
+  display: flex;
+  width:70%;
+  justify-content: center;
+  }
+  }
 `;
 
 type ButtonProps = { color: string; width: string };

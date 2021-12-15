@@ -15,20 +15,30 @@ export default function index() {
         <SideBarWrapper>
             <SideBarHeader><img src={logoImage} width={70} height={70} alt="logo"/></SideBarHeader>
             <SideBarContent>
-                <Link to="/vendor-dashboard" data-tip data-for="dashboard-tip"><MenuItem active><BiHomeAlt/></MenuItem></Link>
+                <Link to="/vendor-dashboard" data-tip data-for="dashboard-tip">
+                    <MenuItem><BiHomeAlt/></MenuItem>
+                </Link>
                 <ReactTooltip id='dashboard-tip' effect='solid'>
                     <span>Dashboard</span>
                 </ReactTooltip>
                 <DividerByDot>...</DividerByDot>
-                <Link to="/configurepayment" data-tip data-for="configurepayment"><MenuItem><BsCardChecklist/></MenuItem></Link>
+                <Link to="/configurepayment" data-tip
+                      data-for="configurepayment">
+                    <MenuItem><BsCardChecklist/></MenuItem>
+                </Link>
                 <ReactTooltip id='configurepayment' effect='solid'>
                     <span>Configurar Pagamentos</span>
                 </ReactTooltip>
-                <Link to="/productcatalog" data-tip data-for="productcatalog"><MenuItem><AiOutlineDropbox/></MenuItem></Link>
+                <Link to="/productcatalog" data-tip
+                      data-for="productcatalog">
+                    <MenuItem><AiOutlineDropbox/></MenuItem>
+                </Link>
                 <ReactTooltip id='productcatalog' effect='solid'>
                     <span>Gerenciar Produtos</span>
                 </ReactTooltip>
-                <Link to="/lives" data-tip data-for="lives"><MenuItem><BiMoviePlay/></MenuItem></Link>
+                <Link to="/lives" data-tip data-for="lives">
+                    <MenuItem><BiMoviePlay/></MenuItem>
+                </Link>
                 <ReactTooltip id='lives' effect='solid'>
                     <span>Gerenciar Lives</span>
                 </ReactTooltip>

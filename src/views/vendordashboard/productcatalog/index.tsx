@@ -25,15 +25,18 @@ export default function ProductCatalog() {
         <CRUDButtonContainer>
           <Link
             to="/addproduct"
-            style={{ textDecoration: "none", width: "30%" }}
           >
             <CRUDButton color="#009933" width="100%">
               ADICIONAR ITEM
             </CRUDButton>
           </Link>
-          <CRUDButton color="#ff0000" width="30%">
+          <Link
+              to="#"
+          >
+          <CRUDButton color="#ff0000" width="100%">
             EXCLUIR TUDO
           </CRUDButton>
+          </Link>
         </CRUDButtonContainer>
         <ProductCatalogTextField placeholder="Buscar Item" />
         <ProductCatalogTable>
